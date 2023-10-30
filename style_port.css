@@ -1,0 +1,102 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Add styling for the body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.header-content {
+    background-color: #007BFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+header p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* Style the about section */
+#about {
+    padding: 40px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content img {
+    max-width: 15%;
+    border-radius: 50%;
+}
+
+/* Style the skills section */
+#skills {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.skills-content ul {
+    list-style-type: none;
+}
+
+.skills-content ul li {
+    padding: 5px 0;
+}
+
+/* Style the projects section */
+#projects {
+    padding: 40px;
+}
+
+.project-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.project-item img {
+    max-width: 10%;
+}
+
+/* Style the resume section */
+#resume {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.resume-content a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style the contact section */
+#contact {
+    padding: 40px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add additional styles and customizations as needed */
